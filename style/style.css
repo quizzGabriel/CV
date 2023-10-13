@@ -2,9 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body 
+#header 
 { 
-    background-color:lightblue;
+    background-color:transparent;
     display: flex;
 }
 
@@ -14,57 +14,46 @@ body
     flex-direction: row;
 }
 
-#cabecera a{
-    text-decoration: none;
-    color: white;
-    margin-right: 40px;   
-}
+    #cabecera a{
+        text-decoration: none;
+        color: white;
+        margin-right: 40px;   
+    }
 
-#cabecera a:hover{
-    color: #310a90;
-}
+    #cabecera a:hover{
+        color: #310a90;
+    }
 
 #blocklogo{
     margin-right: 100px;
 }
 
-#blocklogo a{
-    color: blue;
-}
+    #blocklogo a{
+        color: blue;
+    }
 
-body #descarga{
-    color : blue;
-    background-color: blue;
-    padding: 50px;
-
-}
-
-body #p1
-{
+#Presentacion{
     color:blue;
     font-size:30px;
-    padding:50px;
-    width:500px;
+    padding:50px;"
 }
 
-body #descripcion
-{   
-    padding:50px;
-
-}
-
-#descripcion p{
-    color: blue;
-    font-size: 40px;
-}
-
-#descripcion img{
+#Presentacion #descripcion img{
     background-color: white;
     height: 40px;
     padding:10px;
     border-radius: 15%;
     border-style: solid;
     border-color:#310a90 ;
+}
+
+#Presentacion #descarga button{
+        background-color: blue;
+        color: white;
+        font-size:15px;
+        height:50px;
+        width:300px ;
+        border-radius: 15px;
 }
 
 body li{display:inline;padding:20px;width:50px;;font-size:40px;}
@@ -75,14 +64,160 @@ body li{display:inline;padding:20px;width:50px;;font-size:40px;}
 
 #foto img{
     margin-top: 150px;
+    border-radius: 15%;
 }
 
 #blockizq{
-    background-color: red;
-    width: 60%;
+    background-color:transparent;
+    width:60%;
 }
 
 #blockder{
-    background-color:beige;
+    background-color:transparent;
     width:40%;
+}
+
+#Saberes{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#trabajos #bot_trab1 button{
+    background-color: transparent;
+    color: white;
+    font-size: 30px;   
+    height:50px;
+    width:300px ;
+    border-radius: 15px;
+}
+
+#trabajos #bot_trab2 button{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;   
+}
+
+#trabajos #bot_trab3 button{
+    background-color:transparent;
+    color: white;
+    font-size: 15px;  
+}
+
+#par_button{
+    display: flex;
+}
+
+#blockizq2{
+    background-color: transparent;
+    width:60%;
+    padding: 50px;
+}
+
+#blockder2{
+    width:40%;
+    text-align: center;
+    background-color: transparent;
+}
+
+#foto2 img{
+    margin-top: 50px;
+    border-radius: 15%;
+}
+
+#header2{
+    display: flex;  
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 7%, rgba(1,196,245,1) 58%, rgba(0,212,255,1) 100%);
+}
+
+#header3{
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    background-color:lightblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#trabajos2 #bot_trab4 button{
+    background-color: blue;
+    color: white;
+    font-size: 30px;   
+    height:50px;
+    width:200px ;
+    border-radius: 15px;
+}
+
+#trabajos2 #bot_trab5 button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    margin-right: 20px; 
+    height:50px;
+    width:150px ;  
+    border-radius: 15px;
+}
+
+#trabajos2 #bot_trab6 button{
+    background-color:transparent;
+    color: white;
+    font-size: 15px; 
+    height:50px;
+    width:150px; 
+    border-radius:15px;
+}
+
+#par_button2{
+    display: flex;
+}
+
+#blockizq3{
+    background-color: transparent;
+    width:50%;
+    text-align: right;
+    margin-right: 100px;
+}
+
+#blockder3{
+    margin-top: 500px;
+    width:50%;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+#foto3 img{
+    margin-top: 300px;
+    border-radius: 15%;
+}
+
+#header4{
+    display: flex;  
+}
+
+#header5{
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    background-color:lightblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#header5 img{
+    width:75px;
+    height:75px;
+    border-radius: 50%;
 }
